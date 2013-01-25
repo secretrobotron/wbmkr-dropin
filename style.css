@@ -1,0 +1,53 @@
+.modal {
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.body-control {
+  overflow: hidden;
+}
+
+.cutout {
+  position: absolute;
+  border: 6px solid #fff;
+}
+
+.modal.on {
+  display: block;
+}
+
+.modal textarea {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: transparent;
+  opacity: 0.2;
+  border: 0;
+  font: 14pt menlo;
+  color: #fff;
+  overflow: hidden;
+}
+
+.modal textarea.top-text {
+  top: 0;
+}
+
+.modal textarea.bottom-text {
+  bottom: 0;
+}
+
+.element-text {
+  position: absolute;
+  font: 30pt menlo;
+  color: #fff;
+}
+
+.element-text.left {
+  margin-right: 10px;
+}
